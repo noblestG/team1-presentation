@@ -472,4 +472,415 @@
 
 
 
+</body></html>                "surface-tint": "#5e5e5e",
+                "surface-container-lowest": "#ffffff",
+                "surface": "#f9f9f9"
+            },
+            "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+            },
+            "spacing": {
+                "lg": "24px",
+                "md": "16px",
+                "margin-mobile": "16px",
+                "xxl": "80px",
+                "margin-desktop": "64px",
+                "gutter": "24px",
+                "base": "4px",
+                "xs": "4px",
+                "xl": "40px",
+                "sm": "8px",
+                "unit": "8px",
+                "container-max": "1440px"
+            },
+            "fontFamily": {
+                "sans": ["Helvetica", "Pretendard", "sans-serif"],
+                "headline-lg": ["Helvetica", "Pretendard", "sans-serif"],
+                "headline-xl": ["Helvetica", "Pretendard", "sans-serif"],
+                "display-lg": ["Helvetica", "Pretendard", "sans-serif"],
+                "display-lg-mobile": ["Helvetica", "Pretendard", "sans-serif"],
+                "label-sm": ["Helvetica", "Pretendard", "sans-serif"],
+                "body-md": ["Helvetica", "Pretendard", "sans-serif"],
+                "body-lg": ["Helvetica", "Pretendard", "sans-serif"],
+                "label-md": ["Helvetica", "Pretendard", "sans-serif"],
+                "label-mono": ["Geist Mono", "monospace"],
+                "label-caps": ["Helvetica", "Pretendard", "sans-serif"]
+            },
+            "fontSize": {
+                "headline-lg": ["32px", {"lineHeight": "1.5", "letterSpacing": "-0.04em", "fontWeight": "600"}],
+                "headline-xl": ["48px", {"lineHeight": "1.5", "letterSpacing": "-0.04em", "fontWeight": "600"}],
+                "display-lg": ["72px", {"lineHeight": "1.5", "letterSpacing": "-0.04em", "fontWeight": "700"}],
+                "display-lg-mobile": ["48px", {"lineHeight": "1.5", "letterSpacing": "-0.04em", "fontWeight": "700"}],
+                "label-sm": ["12px", {"lineHeight": "1.5", "letterSpacing": "-0.04em", "fontWeight": "600"}],
+                "body-md": ["16px", {"lineHeight": "1.5", "letterSpacing": "-0.04em", "fontWeight": "400"}],
+                "body-lg": ["18px", {"lineHeight": "1.5", "letterSpacing": "-0.04em", "fontWeight": "400"}],
+                "label-md": ["14px", {"lineHeight": "1.5", "letterSpacing": "-0.04em", "fontWeight": "500"}],
+                "label-caps": ["12px", {"lineHeight": "1.5", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                "headline-md": ["24px", {"lineHeight": "1.5", "letterSpacing": "-0.04em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        * {
+            letter-spacing: -0.04em !important;
+            line-height: 1.5 !important;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            letter-spacing: normal !important;
+            line-height: 1 !important;
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .glass-panel {
+            backdrop-filter: blur(20px);
+            background: rgba(255, 255, 255, 0.05);
+        }
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f9f9fb;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #000000;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background overflow-x-hidden selection:bg-primary selection:text-on-primary font-sans">
+<!-- TopNavBar -->
+<header class="fixed top-0 left-0 w-full z-50 bg-surface/80 backdrop-blur-xl border-b border-tertiary transition-all duration-300">
+<div class="flex justify-between items-center px-margin-desktop py-unit w-full max-w-container-max mx-auto">
+<a class="font-bold text-headline-md tracking-widest text-primary" href="#">TEAM&nbsp; K<span class="" style="white-space: pre-wrap;">.AI</span></a>
+<nav class="hidden md:flex gap-margin-desktop items-center">
+<a class="text-label-caps text-secondary hover:opacity-70 transition-opacity duration-300" href="#project">Project Overview</a>
+<a class="text-label-caps text-secondary hover:opacity-70 transition-opacity duration-300" href="#proposal">Design Proposal</a>
+<a class="text-label-caps text-secondary hover:opacity-70 transition-opacity duration-300" href="#strategy">Design Strategy</a>
+<a class="text-label-caps text-secondary hover:opacity-70 transition-opacity duration-300" href="#mcp">MCP Strategy</a>
+<a class="text-label-caps text-secondary hover:opacity-70 transition-opacity duration-300" href="#outcomes">Expected Outcomes</a>
+</nav>
+<span class="text-label-mono text-[10px] text-secondary opacity-50 px-4 py-1 border border-outline-variant uppercase">@2026 KDM+ 6,7th</span>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex items-center justify-center pt-24 overflow-hidden" id="hero">
+<div class="absolute inset-0 z-0 scale-105 transition-transform duration-1000 ease-out" id="hero-img-container">
+<img alt="AURA Design Proposal" class="w-full h-full object-cover grayscale brightness-75 contrast-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC_6y6H-zl14ClqlJ9GTWlWnaip9iQGidX8KfJRrqKUWE8sLf2pwweh1xFmkPK-TBEfJ9cRfMYqoyAikNWZhzOB3lYmoIAIZL6u8DqaX7HEbp1-qu2hqOfA1Dlf5aoHOoeUYy3ALvXKutaFfDjzopXPOBJYt_3e4oFo-YPuUVhTWG8X8PQBrj6FXCqlVYK7PhEOPkfdxg3SLNgRoyFvJu3O2Znss171t-5JjniTxWCWDU9iljqofY8tO5wBb5aeqbgkYfTK65qM-SFtklU">
+</div>
+<div class="relative z-10 w-full max-w-container-max px-margin-desktop text-center md:text-left flex flex-col items-center md:items-start">
+<span class="text-label-caps tracking-[0.4em] text-on-primary mb-4 reveal active"><span data-metadata="&lt;!--(figmeta)eyJmaWxlS2V5Ijoia29YQUpTSnlnaXRHcmtYVXVDUUdDYyIsInBhc3RlSUQiOjgxOTY5OTk5NCwiZGF0YVR5cGUiOiJzY2VuZSIsImVudmlyb25tZW50Ijoid3d3LmZpZ21hLmNvbSIsInNlbGVjdGVkTm9kZURhdGEiOiI4MDo0fDMxfDAifQo=(/figmeta)--&gt;"></span><span class="" style="white-space: pre-wrap;">AI / MCP WORKSHOP TEMA.K.AI</span></span>
+<h1 class="text-[64px] font-bold text-on-primary max-w-4xl mb-8 leading-[1.2] reveal active" style="transition-delay: 200ms;">Bluetooth Speaker Design<div class="">Concept Presentation</div></h1>
+<p class="text-body-lg text-on-primary/80 max-w-xl mb-12 reveal active" style="transition-delay: 400ms;">Building an AI-powered design tool to streamline the ideation, planning, and development process of innovative Bluetooth speaker concepts and products.</p>
+</div>
+<!-- Floating Scroll Indicator -->
+<div class="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 text-on-primary opacity-50">
+<span class="text-[10px] uppercase tracking-widest font-semibold">PRESENTATION SCROLL</span>
+<div class="w-px h-16 bg-gradient-to-b from-on-primary to-transparent"></div>
+</div>
+</section>
+<!-- Team Introduction Section -->
+<section class="py-[160px] bg-surface-container-lowest" id="team">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="reveal mb-24 active">
+<span class="text-label-caps text-secondary mb-4 block">PRESENTATION TEAM</span>
+<h2 class="text-[56px] font-bold leading-[1.2] mb-12">Introduce Team K.AI</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-start">
+<div class="md:col-span-5 reveal active">
+<h3 class="text-headline-md font-bold mb-6 text-primary">Hello We're K.AI</h3>
+<p class="text-body-lg text-secondary mb-8">Sound as Architecture</p>
+</div>
+<div class="md:col-span-7 reveal active" style="transition-delay: 200ms;">
+<p class="text-body-lg text-secondary mb-12 leading-[1.6]">
+                    Our team focuses on the intersection of industrial precision and architectural permanence. By leveraging MCP and AI-driven design workflows, we transform complex engineering into pure geometric forms.
+                </p>
+<div class="pt-8 border-t border-tertiary">
+<span class="text-label-caps text-[10px] text-primary block mb-6">TEAM MEMBERS</span>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8"><!-- Profile Slot 1 -->
+<div class="flex flex-col gap-4">
+<div class="aspect-[4/5] bg-surface-container-high w-full overflow-hidden">
+<img alt="홍길동" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2aWSIF5-v-A75eM3W1EPC0CaHn2Sz-hd77tC3OdIr0XdJSkNf3YL_D0FDQOiEK9cMxaKNmQWMCUFMnr_DI1QpmqL68cmz3lP2NEBL__d8oI1Ce8ksEMTqMnXZbmPz8P3v0LJs25V6ED2jApjYQGihRmciAqstmMfWwEPBbsLTmmn5ZV_Lethb8aoYxNBSiYCOA76HZK1k3hCCGlLnKX3pvBhHkxmbjbwU_tXKi-3sGQtGipQLb0Xhmqum8FDb8ArGLREEDfkPblSD6zE">
+</div>
+<div class="space-y-1">
+<p class="text-label-caps text-[10px] text-secondary uppercase tracking-widest"><span class="" style="letter-spacing: -0.48px;">KDM+ 7th</span></p>
+<p class="text-body-lg font-bold text-primary">홍길동</p>
+<p class="text-label-sm text-secondary">Web,Branding Design / TL</p>
+</div>
+</div>
+<!-- Profile Slot 2 -->
+<div class="flex flex-col gap-4">
+<div class="aspect-[4/5] bg-surface-container-high w-full overflow-hidden">
+<img alt="이영희" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYQ9k-24SlvbAUt6a1cs_ydIJgwyBkg9JGRMRL0gw7-l7sIuW1M4zIL1htm7QylcUUmMe56UlHiIQMP9acm4indG-AHt15i8WRXcthX-0QmwEU-amYoO2JMCKM0vmm8yFvepEMG_ChqSWfPd1JFMP8iwwnG1lVV6Gn-GHCn916pONdEd-ACBpUKHf_6XmxXX263rycfikDHSW7xej378f3P4ThKVZNu8pNFRUNCmPL6qc-ECom-TZIxbMlhn0btEoMTpLr6GSqMvp3XHk">
+</div>
+<div class="space-y-1">
+<p class="text-label-caps text-[10px] text-secondary uppercase tracking-widest">KDM+ 7th</p>
+<p class="text-body-lg font-bold text-primary">강민수</p>
+<p class="text-label-sm text-secondary">Product / Concept Design</p>
+</div>
+</div>
+<!-- Profile Slot 3 -->
+<div class="flex flex-col gap-4">
+<div class="aspect-[4/5] bg-surface-container-high w-full overflow-hidden">
+<img alt="김철수" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVC4qmth6XCSGwwLZghrEDT2sdaOXfn18SB-XqkLgM9-yIZnJqQaK8oJg9T-OPkSIqfvshtVn9H_pvP52eGZHl9vWQD-VJYdVfNurHVO1Tm3kpTv4UCrc-JaJ8bIYwATmwSY6OAnu1WX8z352dRqzSsapy91053ibl0TSK6PjxnLO7Am1Pvt1o6RZmvVEygPiFdGeFSGAhqkcx_UZjhk0JHNTlxgR7MdeeEgDu78pkkUsNZ3FdZz3J8xXG1xCYoikp9hst8GQEC5uim4c">
+</div>
+<div class="space-y-1">
+<p class="text-label-caps text-[10px] text-secondary uppercase tracking-widest"><span class="" style="letter-spacing: -0.48px;">KDM+ 6th</span></p>
+<p class="text-body-lg font-bold text-primary">권나현</p>
+<p class="text-label-sm text-secondary"><span class="" style="letter-spacing: -0.48px;">Product Design</span></p>
+</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Project Overview Section -->
+<section class="py-[160px] bg-white border-y border-tertiary" id="project">
+<div class="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<div class="md:col-span-5 reveal active">
+<span class="text-label-caps text-secondary mb-4 block">01 / OVERVIEW</span>
+<h2 class="text-headline-lg font-bold mb-12">Project Overview.</h2>
+</div>
+<div class="md:col-span-7 space-y-12 reveal active" style="transition-delay: 200ms;">
+<p class="text-body-lg leading-[1.5] text-secondary">본 프로젝트는 자신의 공간을 갤러리처럼 큐레이션하고, 절제된 방식으로 취향을 드러내는(Quiet Flex) MZ세대를 위한 프리미엄 블루투스 스피커 디자인 제안입니다. 단순한 음향 기기를 넘어 공간의 미학을 완성하는 조각적 오브제로서의 가치를 제안하고자 합니다.</p>
+<p class="text-body-lg leading-[1.5] text-secondary">또한 일회성 전자기기가 아닌 영속적인 오브제를 지향하며, 사운드를 공간의 핵심 요소로 재해석한 프리미엄 오디오 경험을 제공하고자 합니다.</p>
+<div class="pt-8 border-t border-tertiary grid grid-cols-2 gap-8">
+<div>
+<span class="text-label-caps text-[10px] text-primary block mb-2">TARGET AUDIENCE</span>
+<span class="text-body-md font-medium">건축가 및 디자인 전문가</span>
+</div>
+<div>
+<span class="text-label-caps text-[10px] text-primary block mb-2">KEY CHALLENGE</span>
+<span class="text-body-md font-medium">하드웨어의 시각적 복잡성 제거</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Design Proposal -->
+<section class="py-[160px] bg-surface" id="proposal">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="mb-24 reveal text-center max-w-2xl mx-auto active">
+<span class="text-label-caps text-secondary mb-4 block">02 / PROPOSAL</span>
+<h2 class="text-headline-lg font-bold">Design Proposal</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<div class="reveal group active" style="transition-delay: 100ms;">
+<div class="aspect-square bg-surface-container mb-8 overflow-hidden">
+<img alt="Geometric Purity" class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAIXKJi8CYkH05Q6iqocMUHmuu8VNyl_Jw40GTJW-ya3x4AILBctrAMdH-HXj-CzAroc1KhE8IfDIgEApgilos6PWP6XyW3yxOG1vFd-KHeOuAL_PwH5uLYdBnE79xRFlGLm1-g1rzai9tHx4WDXfm7kMe_oxxvrdbrgLF7D-kHTnmXrDkQj0UdGyd_Pnh5YbXVNW2NehAbL7g6WSVRV1p06LBoxzIMe2Z81AQozyYPkypGrHMvvzXmqAbQjFuykNbv9j_QQ0wKot4y">
+</div>
+<h3 class="text-headline-md font-bold mb-4">Conical Purity</h3>
+<p class="text-body-md text-secondary">테이퍼드 실린더와 수직 리브가 이루는 완벽한 수학적 조화를 통해 트렌드를 벗어나 영원히 지속되는 형태를 제안합니다.</p>
+</div>
+<div class="reveal group active" style="transition-delay: 300ms;">
+<div class="aspect-square bg-surface-container mb-8 overflow-hidden">
+<img alt="Tactile Toggle" class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida/AP1WRLs5UM46_mvW1iggNhkxvsHPcj7DUo-oDf77SvH7HLa1fB4EtCx4TVATLiPDxyVpUvth4KtsqGJe-sEVcJPprTZ47XqxmX2jljPXHC-gM504cpKfl38rnphbZbWIPLOOvqQrSNmHuExaLAEZ_Ez8-U231Su6aa61pfLUact5P5eFmWDXpHEcJ633lzekZfXHZYAk-TcXRYHVTulMyWClWd1YBiwiNne-ZWYjicTAYazlptYkDiV1_iaAqant">
+</div>
+<h3 class="text-headline-md font-bold mb-4">Precision Engineering</h3>
+<p class="text-body-md text-secondary">레드 토글 스위치와 정밀한 알루미늄 가공을 통해 소재 간의 매끄러운 전환과 세밀한 완성도를 추구합니다.</p>
+</div>
+<div class="reveal group active" style="transition-delay: 500ms;">
+<div class="aspect-square bg-surface-container mb-8 overflow-hidden">
+<img alt="Top Interface" class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida/AP1WRLtGy0aubuxZX_yzqyxvf3x66xBr4YgNPTYWVUCNAaT3pvRuJSoT461mURltYB5ToGTNAUu0217hV0eyKz30krQcmDXmBssMs5g3MRPhpxNW1HW0BigEU-KlKIbqtxLagli68vo68PextQ0dj9yv5SzV7iw6V6iiSrtXCMxdoxkB8d907gXYCDeIRYEMHozQg-PJD-rt_94SuOkD5we0tpFnNV-RXdGgb3_DaNm8sxlQ3eztOdhXf41u_g">
+</div>
+<h3 class="text-headline-md font-bold mb-4">Minimal Branding</h3>
+<p class="text-body-md text-secondary">실루엣 그 자체를 시그니처로 삼아, 로고 없이 형태와 인터페이스만으로 디자인의 정체성을 증명합니다.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Design Strategy -->
+<section class="py-[160px] bg-background" id="strategy">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="flex flex-col md:flex-row justify-between items-end mb-24 reveal active">
+<div class="max-w-xl">
+<span class="text-label-caps text-secondary mb-4 block">03 / STRATEGY</span>
+<h2 class="text-headline-lg font-bold">Design Strategy.</h2>
+</div>
+<p class="font-mono text-[13px] text-secondary max-md:mt-8 uppercase tracking-widest">[ AURA_RIB_STUDY_001 ]</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 h-auto md:min-h-[800px]">
+<div class="md:col-span-8 bg-surface-container reveal relative overflow-hidden group active">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AP1WRLtGy0aubuxZX_yzqyxvf3x66xBr4YgNPTYWVUCNAaT3pvRuJSoT461mURltYB5ToGTNAUu0217hV0eyKz30krQcmDXmBssMs5g3MRPhpxNW1HW0BigEU-KlKIbqtxLagli68vo68PextQ0dj9yv5SzV7iw6V6iiSrtXCMxdoxkB8d907gXYCDeIRYEMHozQg-PJD-rt_94SuOkD5we0tpFnNV-RXdGgb3_DaNm8sxlQ3eztOdhXf41u_g">
+<div class="absolute bottom-8 left-8 p-6 bg-surface/90 backdrop-blur-md border border-outline-variant max-w-xs">
+<p class="text-label-caps text-[10px] mb-2 text-primary font-bold">TACTILE DIAL</p>
+<p class="text-body-md">브러시 처리된 정밀 가공 다이얼은 물리적 제어의 신뢰성을 시각화합니다.</p>
+</div>
+</div>
+<div class="md:col-span-4 bg-primary text-on-primary p-12 flex flex-col justify-between reveal active" style="transition-delay: 200ms;"><div class="space-y-8"><div class="space-y-4"><h3 class="text-headline-md font-bold">Authentic Materiality</h3><p class="text-body-md opacity-70">소재 본연의 물성을 활용하여 인조 질감을 배제하고 다크 그라파이트 알루미늄과 레드 포인트의 대비를 강조합니다.</p></div><div class="w-full h-px bg-on-primary/20"></div><div class="space-y-4"><h4 class="text-label-caps font-bold tracking-widest">CUSTOMIZATION EXPERIENCE</h4><p class="text-body-md opacity-70">사용자가 컬러, 소재, 포인트 파츠를 조합하여 자신의 취향과 공간에 맞는 제품을 구성할 수 있도록 합니다. 과시적이지 않지만 디테일에서 차별화되는 커스터마이징 경험을 통해, 제품을 개인의 취향을 드러내는 하나의 오브제로 완성합니다.</p></div></div><ul class="mt-12 space-y-4 font-mono text-[13px] opacity-80"><li class="">+ Ribbed Aluminum Shell</li><li class="">+ Red Metallic Toggle</li><li class="">+ Circular Radial Interface</li><li class="">+ Hidden Audio Driver Array</li></ul></div>
+<div class="md:col-span-4 bg-surface-container-high reveal overflow-hidden min-h-[400px] active" style="transition-delay: 400ms;">
+<img class="w-full h-full object-cover grayscale transition-all duration-500 hover:grayscale-0" src="https://lh3.googleusercontent.com/aida/AP1WRLsYmQ84h_08SkE1QMWQr-XW1xxujcckEzWDXJFqA2bBUX8V4giRJBTcwfc_jlbsCbuPU7NVWBHTNTpQ1cbhCEBOKMKH6ULoKDsFDAyfz-9eQN-8QSUE6QDWBh88kJPY7PkZ38lYrCM6jNfErsXV_K1cIg34g8HR1ns7_E4vy9A8sYpIt-DObvxR1fJFT8Gwv2uHQbmvwAIPJrmK1GgeS_ARhopwUqR56LrBKj_JqXCL6PNnhsCIFghKOugH">
+</div>
+<div class="md:col-span-8 border border-tertiary flex items-center justify-center p-12 reveal bg-surface-container-lowest active" style="transition-delay: 600ms;">
+<img alt="Technical Exploded View" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida/AP1WRLt9sUQ2kGXE6AaMgwDtBprQ1u1SD0dl3U9bM9KijYm2UaoGrpMDHdGUICk_xvLADftXOw8rCN3Wmv0IlLjdJcuQ4NO-raGQxKxH9XOjZAxMqsSwHx_mm9E0NMJ3bDREW790AWv86WG8m2Gx-6HA0eFoxWOCEtip_ND9ScjbAVItwcqLF06d_q4STaS--STqvsZlfan2X2sAOU8_XFikvYIHHQsw_xBNopMILFuSAuHW1rUky46GfZ9hpVg">
+</div>
+</div>
+</div>
+</section>
+<!-- UX Strategy -->
+<section class="py-[160px] bg-surface-container-lowest border-y border-tertiary" id="material-finish">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="flex flex-col md:flex-row justify-between items-end mb-24 reveal active">
+<div class="max-w-xl">
+<span class="text-label-caps text-secondary mb-4 block">04 / MATERIAL &amp; FINISH</span>
+<h2 class="text-headline-lg font-bold">CMF</h2>
+</div>
+<p class="font-mono text-[13px] text-secondary max-md:mt-8 uppercase tracking-widest">[ TEXTURE_STUDY_V02 ]</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+<!-- Metal Material Card -->
+<div class="md:col-span-6 reveal active">
+<div class="aspect-[16/9] bg-surface-container mb-8 overflow-hidden group">
+<img alt="Dark Graphite Metal Texture" class="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX3LfmnA6pJj8taciTioasi5h2fxWZNdOQfqNUPFEKMFeSnwZsrrghdgZKA0gTo75wRDnHIxFlVZvkItfL1Z_uCRjIKDCEGJ-6_-4uwI8QBiHDMeFL5kgGns4caN2bsRG5vOjhQg-dO6WHTELCt913BkxBHSrwO2oS0UXVqE2kKNB7U1XJtRvzIaO8cZ18DATsty_j6NuYxc6qbNWXhlcL024kmKVGu6MEGXFOxjp0C8tQjc8HDBBVvegGeKVCD9bRvC_C4jB1N2vfcXI">
+</div>
+<div class="max-w-md">
+<h3 class="text-headline-md font-bold mb-4 uppercase tracking-widest">METAL</h3>
+<p class="text-body-lg text-secondary leading-[1.6]">
+<span class="text-primary font-semibold">'Dark Graphite'</span> anodized aluminum provides structural elegance and premium weight. The precision-milled surface offers a cool, tactile reliability that defines the AURA's architectural presence.
+          </p>
+</div>
+</div>
+<!-- Fabric Material Card -->
+<div class="md:col-span-6 reveal active" style="transition-delay: 200ms;">
+<div class="aspect-[16/9] bg-surface-container mb-8 overflow-hidden group">
+<img alt="Acoustic Fabric Texture" class="w-full h-full object-cover grayscale transition-transform duration-700 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AP1WRLsA9sMcMK9fXrKIZ9nf8vsOS5IuH_UHaLrpLA-J5TIKVQkkXpVRJ7Z48t680ZuxSkm5eZJYHaCzyBTGA-O0cSCOei_Ah6DSVQBlw_hHy61Mu6Kovx4ztBTtBnZEkzb0ic2uXd1OqcgZmiDsBXkAHQcJzuhsmSqH0Ky1WdB87wnKOJx1X4pYxcTk5bTdCkh79VnDHKJGjNG7hq8w7gaKaERkAJSYVLLCBPT8UA-62WrtFUXYvzHZ2-jDch0">
+</div>
+<div class="max-w-md">
+<h3 class="text-headline-md font-bold mb-4 uppercase tracking-widest">FABRIC</h3>
+<p class="text-body-lg text-secondary leading-[1.6]">
+            High-density acoustic fabric provides a warm tactile contrast and balanced sound transparency. This soft-touch element softens the geometric rigour, creating a harmonious dialogue between hard and soft materials.
+          </p>
+</div>
+</div>
+<!-- Product Context Image -->
+<div class="md:col-span-12 mt-12 reveal active" style="transition-delay: 400ms;">
+<div class="relative h-[500px] overflow-hidden">
+<img alt="AURA Speaker in Context" class="w-full h-full object-cover brightness-90" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjZXqrPROauY43HeioW6AGopAIrsVJSh70s2fUyt350VtDmaqkP1RE4g3G5_7gisEQocw4Y2E8B6kC__5kon9ceLZFUer8wezSSGji9u2zW_ZTbSQPn-6scZHK1l7hhlCwdCJzjrljkS1p5-w43aFXuUWlRanCjNnVjWegFwPNmHOh5XP7Q-NfAF6WzeE61If6ZySzjjcfTb6UAg8Oc-dd8UaNJFzXNHYPGZfXdt1WE24rrnKm9v4Y5yQwSZ1rKmjqgW98lRxtBdBg4z4">
+<div class="absolute bottom-8 right-8 p-8 bg-white/90 backdrop-blur-md border border-outline-variant max-w-sm">
+<p class="text-label-caps text-[10px] mb-2 text-primary font-bold">MATERIAL SYNERGY</p>
+<p class="text-body-md text-secondary">The intersection of cold metal and warm textile creates a sensory experience that transcends traditional audio equipment.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MCP Strategy Section -->
+<section class="py-[160px] bg-surface-container-low" id="mcp">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-margin-desktop items-start">
+<div class="md:col-span-4 reveal active">
+<span class="text-label-caps text-secondary mb-4 block">05 / TECHNOLOGY</span>
+<h2 class="text-[40px] font-bold mb-8 leading-tight">MCP Utilization Strategy</h2>
+<p class="text-body-md text-secondary mb-12">디자인 프로세스 내에서의 기술적 혁신을 위해 다음과 같은 AI 및 MCP 통합 전략을 제안합니다.</p>
+</div>
+<div class="md:col-span-8 reveal active" style="transition-delay: 400ms;">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="p-10 border border-tertiary bg-white hover:bg-primary hover:text-on-primary transition-all duration-300">
+<h4 class="text-label-caps font-bold mb-4">MCP Integrated CAD Review</h4>
+<p class="text-body-md opacity-70">실시간 데이터 교환을 통해 리브 구조의 정밀도를 검수하는 MCP 기반 협업 워크플로우.</p>
+</div>
+<div class="p-10 border border-tertiary bg-white hover:bg-primary hover:text-on-primary transition-all duration-300">
+<h4 class="text-label-caps font-bold mb-4">Generative Rib Optimization</h4>
+<p class="text-body-md opacity-70">음향 출력을 최적화하기 위해 AI가 리브의 간격과 깊이를 자동 연산하는 시스템.</p>
+</div>
+<div class="p-10 border border-tertiary bg-white hover:bg-primary hover:text-on-primary transition-all duration-300">
+<h4 class="text-label-caps font-bold mb-4">Digital Twin Simulation</h4>
+<p class="text-body-md opacity-70">실제 공간 조도와 재질을 실시간으로 반영하여 제품의 설치 샷을 생성하는 시뮬레이션 엔진.</p>
+</div>
+<div class="p-10 border border-tertiary bg-white hover:bg-primary hover:text-on-primary transition-all duration-300">
+<h4 class="text-label-caps font-bold mb-4">Contextual Material Swap</h4>
+<p class="text-body-md opacity-70">건축가가 선택한 자재에 맞춰 알루미늄의 아노다이징 톤을 제안하는 MCP CMF 어시스턴트.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Expected Outcomes -->
+<section class="py-[160px] bg-background" id="outcomes">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="reveal border-t border-tertiary pt-24 active">
+<span class="text-label-caps text-secondary mb-4 block">06 / EXPECTATION</span>
+<h2 class="text-headline-md font-bold mb-12">Expected Outcomes.</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-margin-desktop">
+<p class="text-body-lg text-secondary leading-[1.6]">
+                    본 프로젝트를 통해 산업 디자인이 단순한 외형의 변화를 넘어, 공간의 질을 높이는 건축적 요소로서 기능할 수 있음을 증명하고자 합니다. 과제는 단순히 소리를 내는 기기를 만드는 것이 아니라, 공간을 정의하는 고요한 오브제를 완성하는 것입니다.
+                </p>
+<p class="text-body-lg text-secondary leading-[1.6]">
+                    향후 로드맵에는 지속 가능한 제조 공정의 통합과 드라이버 어레이의 소형화 과정을 통한 더욱 정교한 실루엣 구현이 포함되어 있습니다. 이는 기술과 미학의 완벽한 결합을 목표로 합니다.
+                </p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface border-t border-tertiary">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-desktop py-gutter w-full max-w-container-max mx-auto">
+<div class="flex flex-col items-center md:items-start gap-2 mb-8 md:mb-0">
+<span class="text-headline-md font-bold text-primary tracking-widest uppercase"><a class="font-bold text-headline-md tracking-widest text-primary" href="https://app-companion-430619.appspot.com/projects/10588314101386130858?pli=1&amp;usegapi=1&amp;jsh=m%3B%2F_%2Fscs%2Fabc-static%2F_%2Fjs%2Fk%3Dgapi.lb.ko.4XlE21lAHZg.O%2Fd%3D1%2Frs%3DAHpOoo87KNXmV5OeSd-Dt__Wtv736527Nw%2Fm%3D__features__#" style="--tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; color: rgb(0, 0, 0); --tw-text-opacity: 1; text-transform: none; background-color: rgba(249, 249, 249, 0.8); outline: none !important; box-shadow: none !important;">TEAM&nbsp; K<span class="" style="--tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgb(59 130 246 / 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; white-space: pre-wrap;">.AI</span></a></span>
+<p class="font-mono text-[11px] text-secondary">@2026 KDM+ 6,7th AI/MCP WORKSHOP</p>
+</div>
+<nav class="flex gap-8">
+<a class="text-label-caps text-secondary hover:text-primary transition-colors duration-200" href="#">Documentation</a>
+<a class="text-label-caps text-secondary hover:text-primary transition-colors duration-200" href="#">Case Study</a>
+<a class="text-label-caps text-secondary hover:text-primary transition-colors duration-200" href="#">Technical Specs</a>
+<a class="text-label-caps text-secondary hover:text-primary transition-colors duration-200" href="#">Contact Team</a>
+</nav>
+</div>
+</footer>
+<script>
+    // Intersection Observer for Scroll Reveals
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const revealObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+            }
+        });
+    }, observerOptions);
+
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    // Parallax Effect for Hero Image
+    window.addEventListener('scroll', () => {
+        const scrolled = window.pageYOffset;
+        const heroImg = document.querySelector('#hero-img-container img');
+        if (heroImg) {
+            heroImg.style.transform = `translateY(${scrolled * 0.4}px) scale(${1 + scrolled * 0.0005})`;
+        }
+    });
+
+    // Sticky Nav Transformation
+    window.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+        if (window.scrollY > 50) {
+            header.classList.add('py-1', 'bg-surface/95', 'shadow-sm');
+        } else {
+            header.classList.remove('py-1', 'bg-surface/95', 'shadow-sm');
+        }
+    });
+</script>
+
+
+
+
 </body></html>
